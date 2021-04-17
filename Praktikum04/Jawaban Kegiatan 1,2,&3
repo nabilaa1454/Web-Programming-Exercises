@@ -1,0 +1,33 @@
+//Kegiatan 1
+5. Setelah script bisa berjalan dengan baik, jawablah pertanyaan berikut ini:
+a. Apakah kegunaan dari function fopen()? Dan jelaskan maksud dari parameter yang ada
+di dalam function fopen() tersebut!
+Jawab: fopen() digunakan untuk membuka file. Maksud dari parameternya yaitu didalam fopen() terdapat $namaFile yang digunakan untuk memasukkan file yang akan dibuka, dan "r" sebagai perintah yang akan dibaca. 
+
+b. Apa kegunaan dari function die()?
+Jawab: fdie() digunakan untuk menampilkan string ketika terjadi kesalahan atau error dari file sebelumnya
+
+c. Apa kegunaan dari function fread()? Jelaskan maksud maksud dari parameter yang ada
+di dalam function fread() tersebut!
+Jawab: fread() digunakan untuk membaca file. Prameternya yaitu kembalian nama file yang akan dibuka dan untuk menentukan byte
+
+d. Apa kegunaan dari function fclose()? Bagaimana jika tidak menggunakan function ini
+setelah operasi file selesai?
+Jawab: fclose digunakan untuk menuutp file. Jika tidak digunakan kembali maka bisa terjadi error.
+
+
+//Kegiatan 2
+3. Jelaskan kegunaan dari function berikut ini:
+a. feof()
+
+Jawab: Untuk pengecekan sampai pada akhir file
+b. fgets()
+Jawab: Untuk membaca baris dari file
+
+
+//Kegiatan 3
+3. Apa kegunaan dari function fwrite()?
+Jawab: Untuk menulis isi dalam file
+
+4. Apa yang terjadi jika perintah fopen($namaFile, "a") diganti dengan fopen($namaFile, "w")?
+Jawab: File yang sudah ada akan terhapus dan tergantikan dengan file baru yang dimasukkan/ditambahkan.
