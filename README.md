@@ -1,2 +1,5 @@
 # Web-Programming-Exercises
-Praktikum Pemrograman Web - Nabilaa N.A | K3519061
+Praktikum Pemrograman Web
+
+Nabilaa Noor'Aini 
+K3519061
